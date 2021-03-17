@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_news">
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.craiovadata.mybridgeitapplication.ui.news.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/navigation_form"
+        android:name="com.craiovadata.mybridgeitapplication.ui.form.FormFragment"
+        android:label="@string/title_form"
+        tools:layout="@layout/fragment_form" />
+
+    <fragment
+        android:id="@+id/navigation_weather"
+        android:name="com.craiovadata.mybridgeitapplication.ui.weather.WeatherFragment"
+        android:label="@string/title_weather"
+        tools:layout="@layout/fragment_weather" />
+</navigation>

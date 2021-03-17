@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.news.NewsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/newsitem_list"
+        android:name="com.craiovadata.mybridgeitapplication.ui.home.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/newsitem_list_content"
+        android:layout_gravity="top|center_horizontal"
+       />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/news_loading_indicator"
+        />
+
+    <TextView
+        android:id="@+id/text_empty_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_news_list"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+</FrameLayout>
+

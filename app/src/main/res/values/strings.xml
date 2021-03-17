@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Bridge IT Application</string>
+
+<!--  NEWS-->
+    <string name="title_news">News</string>
+    <string name="empty_news_list">No news to show</string>
+    <string name="link_unavailable_alert">Received link is null</string>
+
+<!-- FORM -->
+    <string name="title_form">Form</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_birth_date">Birth date</string>
+    <string name="hint_city">City</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_repeat_password">Repeat password</string>
+    <string name="error_name">Please enter a valid name</string>
+    <string name="error_birth_incorect">Seems the date is incorect</string>
+    <string name="error_birth_too_young">You are too young to continue</string>
+    <string name="error_city">City must be set</string>
+    <string name="error_email">Email is malformed</string>
+    <string name="error_passwort_short">Password must be at least 8 character long</string>
+    <string name="error_passwort_do_not_mach">Passwords do not mach</string>
+    <string name="register_button_text">Register</string>
+    <string name="toast_user_registered">User is registered successfully</string>
+
+<!-- WEATHER -->
+    <string name="title_weather">Weather</string>
+
+</resources>

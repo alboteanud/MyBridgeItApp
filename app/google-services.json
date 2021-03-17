@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "989069842597",
+    "project_id": "my-bridgeit-app",
+    "storage_bucket": "my-bridgeit-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989069842597:android:3763cee51b14c5183d954c",
+        "android_client_info": {
+          "package_name": "com.craiovadata.mybridgeitapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989069842597-uln6lhpn5jic1glsk2oil330330urcpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.craiovadata.mybridgeitapplication",
+            "certificate_hash": "4d843560e44c0d4ecdcc913ac7f7dfcdacd66a3c"
+          }
+        },
+        {
+          "client_id": "989069842597-3nl4f5jr4iquh0avhfvr4cj5582neah0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCzGwsrGOGZTOuGDh1zBndeh4aHIq1MQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989069842597-3nl4f5jr4iquh0avhfvr4cj5582neah0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
